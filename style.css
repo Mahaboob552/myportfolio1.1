@@ -77,18 +77,18 @@ home-content h1{
 
 }   
 .btn-box{
-    width: 40px;
+    width: 60px;
     display:flex;
     gap:2em;
 }
 .btn-1{
-    padding: 8px 15px;
+    padding: 10px 17px;
     color: white;
     border: 2px solid transparent;
     border-radius: 8px;
-    font-size: 10px;
+    font-size: 13px;
     letter-spacing: 1px;
-    font-weight: 300;
+    font-weight: 400;
     transition: 0.3s ease;
     cursor: pointer;
 
@@ -107,13 +107,13 @@ home-content h1{
 
 }
 .btn-2{
-    padding: 8px 15px;
+    padding: 10px 17px;
     color: white;
     border: 2px solid black;
     border-radius: 8px;
-    font-size: 10px;
+    font-size: 13px;
     letter-spacing:1px;
-    font-weight: 300;
+    font-weight: 400;
     transition: 0.3s ease;
     cursor: pointer;
 
