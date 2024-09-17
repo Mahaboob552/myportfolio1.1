@@ -134,9 +134,13 @@ home-content h1{
 
 }
 .textindent{
-    text-indent: 80px;
+    text-indent: 50px;
     font-size: 20px;
 
+}
+h5{
+    text-indent: 50px;
+    font-size: 15px;
 }
 .special{
     color: orangered;
