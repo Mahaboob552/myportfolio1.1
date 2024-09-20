@@ -155,10 +155,29 @@ img{
     border-radius: 200px;
     float: right;
     margin-right: 100px;
-}
-.letterspacing{
-    letter-spacing: 5px;
-}
+
+}  
+    .animated-text {
+        margin-left: 300px;
+        letter-spacing: 5px;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+        border-right: 0.2em solid orange; /* Cursor */
+        animation: typing 4s steps(20, end);
+    }
+    
+    @keyframes typing {
+        from { width: 0px }
+        to { width: 100% }
+    }
+    
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: orange; }
+    }
+    
+
 ::-webkit-scrollbar{
     width: 15px;
 
@@ -208,3 +227,56 @@ pre{
     font-size: 20px;
     margin: 2em 0 3em;
 }
+.hi{
+    background-color: rgba(0, 0, 255, 0.603);
+    text-indent: 100px;
+}
+.how are you{
+    background-color: rgba(0, 0, 255, 0.603);
+}
+.certificate{
+    font-size: 30px;
+}
+.buttons:link{
+    background-color: red;
+
+
+}
+.contact li{
+    color: white;
+    font-size: 30px;
+    
+
+}
+.contact{
+    background-color: rgba(0, 0, 255, 0.603);
+    text-indent: 100px;
+}
+.alltabs{
+    background-color: rgba(0, 0, 255, 0.603);
+
+}
+.mycontact{
+    text-indent: 100px;
+}
+.b{
+    color: black;
+    font-size: 20px;
+
+}
+.b:hover{
+    color: orangered;
+    color: black;
+}
+.mycontact{
+    background-color: rgba(0, 0, 255, 0.603);
+}
+.hi .b:hover{
+    background-color: orangered;
+
+}
+.contact .b:hover{
+    background-color: orangered;
+}
+
+
